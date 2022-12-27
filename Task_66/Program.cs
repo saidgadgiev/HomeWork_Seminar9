@@ -14,9 +14,9 @@ int SummNum(int m, int n, int result = 0)
 }
 
 Console.WriteLine("Введите число M: ");
-int m = int.Parse(Console.ReadLine());
+int m = int.Parse(Console.ReadLine()??"");
 Console.WriteLine("Введите число N: ");
-int n = int.Parse(Console.ReadLine());
+int n = int.Parse(Console.ReadLine()??"");
 Console.WriteLine();
 
 int res = SummNum(m,n);
